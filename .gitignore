@@ -1,0 +1,6 @@
+/web/app/Config
+/web/app/tmp
+/web/lib/Cake/Console/Templates/skel/tmp/
+/web/plugins
+/web/vendors
+/web/.DS_Store
