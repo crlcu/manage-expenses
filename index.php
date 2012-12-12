@@ -100,5 +100,7 @@
 	
 	<script type="text/javascript" src="http://manage-expenses.com/plugins/jQuery/js/jquery.min.js?1354115721" alt=""></script>
     <script type="text/javascript" src="http://manage-expenses.com/plugins/bootstrap/js/bootstrap.min.js?1353310384" alt=""></script>
+	
+	<?php require_once('google-analytics.php');?>
 </body>
 </html>
