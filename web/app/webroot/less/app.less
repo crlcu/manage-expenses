@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@import 'class';
+@import 'forms';
+@import 'menu';
+@import 'bootstrap.overwrite';
+
+th a.asc:after {
+	content: ' ⇣';
+}
+th a.desc:after {
+	content: ' ⇡';
+}
+
+.login-wrapper,
+.register-wrapper,
+.forgot-password-wrapper{
+	padding: 20px;
+	margin: 10px auto;
+	
+	width: 40%;
+}
+
+.login-wrapper,
+.forgot-password-wrapper{
+	margin-top: 10%;
+}
+
+#footer{
+	margin-top: 10px;
+}

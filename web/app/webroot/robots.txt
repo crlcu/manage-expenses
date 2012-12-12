@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://manage-expenses.com/sitemap.xml
