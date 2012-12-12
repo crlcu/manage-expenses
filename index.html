@@ -1,78 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<meta name="description" lang="en" content="Manage Expenses: manage your daily expenses."/>
+<meta name="keywords" lang="en" content="manage expenses, track expenses, expenses manager, expenses tracker, savings manager" />
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<meta name="description" lang="ro" content="Gestionar de Cheltuieli: gestionati-va cheltuieli de zi cu zi."/>
+<meta name="keywords" lang="ro" content="gestioneaza cheltuieli, urmareste cheltuieli, manager de cheltuieli, manager de economii" />	
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    
+	<title>Manage Expenses: Home</title>
+    
+	<link href="http://manage-expenses.com/favicon.ico" type="image/x-icon" rel="icon" alt="" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" alt="" />
+	<link rel="stylesheet" type="text/css" href="http://manage-expenses.com/plugins/bootstrap/css/bootstrap.min.css?1352098515" alt="" />
+	<link rel="stylesheet" type="text/css" href="http://manage-expenses.com/plugins/font-awesome/css/font-awesome.min.css?1352098516" alt="" />
+<link rel="stylesheet" type="text/css" href="http://manage-expenses.com/css/expenses.min.css?1354695779" alt="" /></head>
+<body>
+	<section id="header">
+		<div class="container">
+            <div class="row-fluid">
+				<div class="page-header clearfix">
+					<div class="pull-right">
+						<a href="http://manage-expenses.com/login" class="btn btn-success" title="Login" alt="Login">Login</a> or						<a href="http://manage-expenses.com/register" class="btn btn-primary" title="Register" alt="Register">Register</a>					</div>
+				</div>
+			</div>
+        </div>
+	</section>
 
-    <title>Manage-expenses by crlcu</title>
-  </head>
+    <section id="page">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span6">
+	<div id="carousel" class="carousel slide well">
+		<!-- Carousel items -->
+		<div class="carousel-inner">
+			<div class="active item">
+				<img src="http://manage-expenses.com/img/presentations/register.jpg?1354171536" alt="" />				
+				<h5 class="no-margin-bottom">Make an account. It&rsquo;s FREE</h5>
+			</div>
+			<div class="item">
+				<img src="http://manage-expenses.com/img/presentations/login.jpg?1354171637" alt="" />				
+				<h5 class="no-margin-bottom">Login and manage your expenses</h5>
+			</div>
+			<div class="item">
+				<img src="http://manage-expenses.com/img/presentations/recover-password.jpg?1354171677" alt="" />				
+				<h5 class="no-margin-bottom">Forgot your password? You can recover with a single click.</h5>
+			</div>
+			<div class="item">
+				<img src="http://manage-expenses.com/img/presentations/payments.jpg?1354171659" alt="" />				
+				<h5 class="no-margin-bottom">Group your expenses into categories for easy management.</h5>
+			</div>
+			<div class="item">
+				<img src="http://manage-expenses.com/img/presentations/chart.jpg?1354171571" alt="" />				
+				<h5 class="no-margin-bottom">Analyze your expenses and incomes with beautiful charts.</h5>
+			</div>
+		</div>
+		
+		<!-- Carousel nav -->
+		<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+	</div>
+</div>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Manage-expenses</h1>
-        <h2></h2>
-        <a href="https://github.com/crlcu/manage-expenses" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/crlcu/manage-expenses/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/crlcu/manage-expenses/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/crlcu/manage-expenses"></a> is maintained by <a href="https://github.com/crlcu">crlcu</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
-
-  
-  </body>
+<div class="span6">
+	<h2 align="center">The Easiest way to keep track of your expenses</h2>
+	<h3 align="center">Great for Business or Personal Use</h3>
+	
+	<div class="row-fluid">
+		<div class="span6 alert alert-info">
+			<h5><i class="icon-tags"></i> Organize</h5>
+			Organize your expenses by categories and analyze your expenses.		</div>
+		
+		<div class="span6 alert alert-info">
+			<h5><i class="icon-print"></i> Export and Print</h5>
+			Print beautiful expense reports that include expense summaries, details, and receipts.		</div>
+	</div>
+	
+	<div class="row-fluid">
+		<div class="span6 alert">
+			<h5><i class="icon-bar-chart"></i> Analize</h5>
+			Analyze your expenses and income with beautiful charts.		</div>
+		
+		<div class="span6 alert">
+			<h5><i class="icon-flag"></i> International Support</h5>
+			Create an account and select the language you want.		</div>
+	</div>
+</div>            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="alert alert-info">
+                    <small>&copy; 2012 Expenses Manager</small>
+                </div>
+            </div>
+        </div>  
+    </footer>
+	
+	<script type="text/javascript" src="http://manage-expenses.com/plugins/jQuery/js/jquery.min.js?1354115721" alt=""></script>
+    <script type="text/javascript" src="http://manage-expenses.com/plugins/bootstrap/js/bootstrap.min.js?1353310384" alt=""></script>
+</body>
 </html>
