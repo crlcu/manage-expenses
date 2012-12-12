@@ -7,7 +7,6 @@ Manage Expenses is a website that helps you to keep your spending under control.
 
 ## Demo
 
-Demo
 * [demo page](http://manage-expenses.com/)
 * user : demo
 * password : demouser
